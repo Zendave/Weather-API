@@ -1,0 +1,82 @@
+/* Add your custom CSS styles here */
+
+/* Body styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+fieldset {
+  border: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/* Ghost input and button styles */
+.ghost-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  color: #555;
+  width: 200px;
+}
+
+.ghost-button {
+  border: none;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+
+.ghost-button:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* Card styles */
+.card-header {
+  background-color: #343a40;
+  color: #fff;
+  font-weight: bold;
+}
+
+.card-accent-dark {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Error message styles */
+p.error {
+  color: red;
+  font-weight: bold;
+}
